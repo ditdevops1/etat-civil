@@ -1,0 +1,9 @@
+ <?php
+
+    //nombre d'eleve
+    $server_name = "localhost";
+    $db_user = "root";
+    $db_pass = "";
+    $db_name = "rufisque_est";
+    $connection = mysqli_connect($server_name, $db_user, $db_pass, $db_name);
+    ?>  
